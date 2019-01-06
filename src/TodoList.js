@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 const TodoList = ({ todos, addTodo }) => {
   return (
     <View style={styles.container}>
-      { todos.map(todo => <Text key={todo.id}>{todo.payload.text}</Text>) }
+      { todos.map(todo => <Text key={todo.id}>{todo.text}</Text>) }
       <TouchableOpacity onPress={() => { addTodo('Fazer outra Coisa'); }}>
         <Text>Adicionar Todo</Text>
       </TouchableOpacity>
