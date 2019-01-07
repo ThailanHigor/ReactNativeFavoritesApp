@@ -8,6 +8,7 @@
     "react-devtool": "react-devtools"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "color": "^3.1.0",
     "prop-types": "^15.6.2",
     "react": "16.6.3",
@@ -15,7 +16,8 @@
     "react-navigation": "^2.18.2",
     "react-redux": "^6.0.0",
     "reactotron-redux": "^2.1.3",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
